@@ -1,0 +1,36 @@
+.submit button{
+    border:2px solid blue;
+    padding: 0.625rem 1.125rem;
+    color:white;
+    font-weight: 600;
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background:black;
+    width: 13.75rem;
+    display:flex;
+    align-items:center;
+    place-content:center;
+    gap:8px;
+    curcor:pointer;
+}
+
+.outline_btn{
+    border:2px solid blue;
+    padding: 0.625rem 1.125rem;
+    color:white;
+    font-weight: 600;
+    border-radius: 0.3125rem;
+    border: 1px solid #000;
+    background:black;
+    width: 13.75rem;
+    display:flex;
+    align-items:center;
+    place-content:center;
+    gap:8px;
+    border:1px solid black;
+    color:black;
+    background-color:white;
+    width:100%;
+    margin-top:1rem;
+}
+

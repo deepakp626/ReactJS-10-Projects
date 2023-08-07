@@ -1,0 +1,18 @@
+.navigation {
+    display:flex;
+    align-items:center;
+    height:4.5rem;
+    justify-content:space-between;
+    padding:0px 4rem;
+    /* border:2px solid blue; */
+}
+.navigation ul{
+    display:flex;
+    gap:1.5rem;
+    list-style:none;
+}
+li{
+    color: #2E2E2E;
+font-style: normal;
+font-weight: 600;
+}
