@@ -40,11 +40,11 @@ const Signup = () => {
     const toast = useToast();
   const { mutate, isLoading } = useMutation({
     mutationKey: ["signup"],
-    mutationFn: signupUser,
+    mutationFn: signupUser,   
     onSuccess: (data) => {
-        console.log(email)
+        console.log(email)          
         if((email)){
-        navigate(`/register-email-verify/${email}`)
+        navigate(`/register-email-verify/${email}`) 
         }
     },
     onError: (error) => {

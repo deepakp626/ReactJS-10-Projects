@@ -17,7 +17,7 @@ import { useMutation, useQuery } from "react-query";
 import { sendVerificationMail } from "../../../api/query/userQuery";
 
 const RegisterEmailVerify = () => {
-    const toast = useToast();
+  const toast = useToast();
   const { email } = useParams();
 
   console.log(location);
@@ -52,9 +52,9 @@ const RegisterEmailVerify = () => {
 
   return (
     <>
-         <Container>
-      <Center minH="100vh">
-            <Card
+      <Container>
+        <Center minH="100vh">
+          <Card
             p={{
               base: "4",
               md: "10",
@@ -86,9 +86,9 @@ const RegisterEmailVerify = () => {
             </VStack>
           </Card>
 
-       
-      </Center>
-    </Container>
+
+        </Center>
+      </Container>
     </>
   )
 }
